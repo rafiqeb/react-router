@@ -1,0 +1,34 @@
+.navber{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  border: 2px solid red;
+  border-radius: 12px;
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.post{
+  border: 2px solid blue;
+  border-radius: 12px;
+}
+
+.post-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.post-details{
+  border: 2px solid yellow;
+  border-radius: 10px;
+  padding: 10px;
+}
